@@ -1,0 +1,320 @@
+{
+  "currentVersion": "3.0.7B",
+  "lastUpdate": "2026-03-26",
+  "versions": [
+    {
+      "version": "3.0.7B",
+      "date": "2026-03-26",
+      "title": "🎨 Interface vocale Discord-style & Corrections",
+      "changes": [
+        "🎨 Interface vocale redessinée — dégradés violet/indigo vibrants, avatars plus grands, cartes modernes",
+        "🔴 Badge EN DIRECT — indicateur rouge pulsant sur les partages d'écran avec résolution et FPS",
+        "📡 EN DIRECT dans la sidebar — badge rouge à côté des utilisateurs qui partagent leur écran",
+        "👥 Bouton Inviter dans le salon vocal — copie un lien d'invitation rapide",
+        "🎮 Bouton Choisis une Activité — accès rapide aux activités depuis la vue vocale",
+        "🎯 Barre de contrôles modernisée — boutons arrondis, animations fluides, style Discord",
+        "🐛 Gartic Phone corrigé — le jeu démarre maintenant correctement (bug critique socketId résolu)",
+        "🖥️ Partage d'écran amélioré — notifications de démarrage/arrêt, meilleure gestion des erreurs",
+        "🎮 Gartic Phone jouable seul — possibilité de tester le jeu même seul"
+      ]
+    },
+    {
+      "version": "3.0.6B",
+      "date": "2026-03-26",
+      "title": "🔊 Vocal amélioré & Gartic Phone",
+      "changes": [
+        "🎨 Avatars réels dans les cartes vocales — photos de profil au lieu d'initiales",
+        "💚 Animation de parole corrigée — bordure verte nette sur l'avatar, sans zoom ni clignotement",
+        "🔊 Contrôle du volume par clic droit — ajustez le volume de chaque utilisateur (jusqu'à 200%)",
+        "🖥️ Clic droit sur les partages d'écran — contrôlez le volume des flux partagés",
+        "🎤 Micro + partage d'écran simultanés — les autres vous entendent pendant le partage",
+        "📏 Barre vocale ne couvre plus les messages — le chat s'ajuste automatiquement",
+        "⚙️ Paramètres de qualité — résolution & FPS configurables pour la caméra et le partage d'écran",
+        "🎮 Activités vocales — nouveau bouton Activités dans les contrôles vocaux",
+        "🎨 Gartic Phone — écrivez, dessinez, devinez ! Jeu complet avec lobby, tours configurables, dessin, chrono et résultats"
+      ]
+    },
+    {
+      "version": "3.0.5B",
+      "date": "2026-03-26",
+      "title": "📱 Plateforme, Mobile & Améliorations",
+      "changes": [
+        "🖥️ Détection de plateforme — icône à côté du pseudo (🖥️ PC, 📱 Mobile, 💻 Chromebook, 🌐 Web)",
+        "📱 Interface mobile responsive — navigation par onglets, sidebar dépliable, tactile optimisé",
+        "🔄 Aperçu mobile dans les paramètres — testez l'affichage téléphone depuis un PC",
+        "👥 Panneau membres mobile — accès rapide aux utilisateurs connectés",
+        "🔔 Notifications déplacées en haut à gauche",
+        "📜 Mémorisation du scroll par salon — retrouvez votre position en changeant de salon",
+        "🔧 Fix icônes du header qui se chevauchaient en mode mobile",
+        "🔧 Fix champ de saisie caché derrière la barre de navigation mobile"
+      ]
+    },
+    {
+      "version": "3.0.4B",
+      "date": "2026-03-24",
+      "title": "🎮 Refonte Jeux, XP & Interface",
+      "changes": [
+        "🔧 Fix synchronisation jeux multijoueur - Les invitations fonctionnent correctement",
+        "🔄 Résolution dynamique des sockets - Plus de parties fantômes ou abandons incorrects",
+        "🧹 Nettoyage automatique des parties/invitations à la déconnexion",
+        "📨 Notifications d'invitation de jeu redessinées - Toast en bas à droite avec accept/refus",
+        "🎮 Interface des jeux redessinée - 3 catégories (Multijoueur, Culture & Quiz, Solo)",
+        "🏷️ Badges et tags sur les cartes de jeux (2J, VS, Solo, Culture...)",
+        "🔄 Système de rematch ajouté sur tous les jeux",
+        "🎯 Sélecteur Solo/Multi pour Quiz, Trivia et Pendu",
+        "✊ Pierre-Papier-Ciseaux multijoueur complet - 5 rounds, scores en temps réel",
+        "❓ Quiz multijoueur complet - Questions simultanées, résultats comparés, scores",
+        "🧠 Trivia multijoueur complet - Même principe que le Quiz avec questions culture générale",
+        "🪢 Pendu Co-op multijoueur - Devinez le mot à tour de rôle avec un ami",
+        "🚫 Système de blocage d'utilisateurs complet (bloquer/débloquer, onglet Bloqués)",
+        "📌 Panneau combiné Épinglés + Sauvegardés avec onglets",
+        "🗂️ Header réorganisé - Boutons groupés par catégorie, Stockage déplacé en sidebar",
+        "🤖 IA améliorée - 7 nouvelles catégories (histoire, défis, vacances, fun facts, compliments...)",
+        "💡 12 boutons de suggestion dans le chat IA (dé, histoire, défi, horoscope, top 5...)",
+        "⚔️ Affichage XP redessiné - Cercle de niveau animé, titres de rang (Recrue → Immortel)",
+        "📊 Stats XP détaillées avec 3 chips et barre de progression brillante",
+        "😊 Emoji Picker redessiné - Animation d'entrée, scrollbar stylisée, hover amélioré",
+        "🎞️ GIF Picker redessiné - 4 nouvelles catégories (anime, gaming, danse, chats)",
+        "🎨 Animations fluides sur les deux pickers (scale, fade, bordures accent)"
+      ]
+    },
+    {
+      "version": "3.0.3B",
+      "date": "2026-03-24",
+      "title": "🔊 Salons Vocaux & WebRTC",
+      "changes": [
+        "🎙️ Salons vocaux - 3 salons : Vocal Général, Gaming, Musique",
+        "🗣️ Communication audio WebRTC en temps réel entre utilisateurs",
+        "📹 Partage de caméra et d'écran dans les salons vocaux",
+        "🟢 Détection de parole - Contour animé vert quand quelqu'un parle",
+        "👥 Vue Discord-style - Cartes utilisateurs avec avatar et statut",
+        "📊 Participants visibles dans la sidebar sous chaque salon vocal",
+        "🎨 Interface vocale redessinée - Animations, ondes, effets visuels",
+        "🔇 Contrôles micro, son, caméra, écran avec feedback visuel",
+        "🔄 Synchronisation en temps réel des participants vocaux",
+        "✨ Animations d'apparition des cartes et effets de survol"
+      ]
+    },
+    {
+      "version": "3.0.2B",
+      "date": "2026-03-23",
+      "title": "🎨 Refonte Interface & Formatage",
+      "changes": [
+        "📐 Header compact - Icônes en barre horizontale avec animation stylée",
+        "✨ Animation d'ouverture/fermeture des icônes (scale + stagger)",
+        "🪟 Option Liquid Glass (iOS) - Effet glassmorphism sur toute l'interface",
+        "🔐 Admin Panel complètement refait - Design moderne avec onglets",
+        "📺 Admin: Diffusion sur l'écran de tous les utilisateurs",
+        "🎊 Admin: Effets visuels (confettis, tremblement, flash, matrix)",
+        "✏️ Formatage texte : **gras**, *italique*, ~~barré~~, __souligné__",
+        "🎨 Couleurs des thèmes respectées partout (--accent-rgb)",
+        "🔤 Traduction complète des paramètres dans les 8 langues",
+        "🗑️ Suppression du changement de pseudo dans les paramètres"
+      ]
+    },
+    {
+      "version": "3.0.1B",
+      "date": "2026-03-22",
+      "title": "🔧 Correctifs & Système de Comptes",
+      "changes": [
+        "🔑 Système de comptes avec mot de passe - Protégez votre pseudo !",
+        "🐛 Fix [object Object] et Invalid Date dans les messages",
+        "👥 Synchronisation amis améliorée - Statut en ligne en temps réel",
+        "🔄 Bannière de reconnexion avec animation de fermeture automatique",
+        "🛡️ Protection des pseudos enregistrés - Mot de passe requis si compte existant",
+        "📡 Mise à jour automatique de la liste d'amis (ajout, suppression, connexion/déconnexion)"
+      ]
+    },
+    {
+      "version": "3.0.0B",
+      "date": "2026-03-22",
+      "title": "🚀 La Méga Update - Tout en un !",
+      "changes": [
+        "🔖 Messages sauvegardés (bookmarks) - Sauvegardez vos messages favoris",
+        "👥 Système d'amis complet - Demandes, acceptation, liste d'amis en ligne",
+        "🏆 Système XP & Niveaux - Gagnez de l'XP en chattant, montez de niveau !",
+        "🏅 Classement (Leaderboard) - Comparez votre XP avec les autres",
+        "⏰ Système de rappels - /rappel 30m Réunion ou via le panneau",
+        "🔊 Soundboard - 10 effets sonores jouables pour tous le salon",
+        "💭 Statut personnalisé - En ligne, Absent, Ne pas déranger + texte custom",
+        "🔗 Aperçu de liens (Link Previews) - Titre, description, image des URLs",
+        "🛡️ Auto-modération - Anti-spam, filtre de liens, MAJUSCULES, mots interdits",
+        "💀 Nouveau jeu : Pendu - Devinez le mot lettre par lettre",
+        "🧠 Nouveau jeu : Trivia - 20 questions de culture générale, gagnez de l'XP",
+        "👁️ Confirmations de lecture (Read Receipts) - Voyez qui a lu vos messages",
+        "📂 Catégories de salons repliables - Cliquez pour réduire les groupes",
+        "🎮 Les jeux donnent maintenant de l'XP !",
+        "/rappel, /statut - Nouvelles commandes chat",
+        "🔖 Bouton Sauvegarder dans le menu contextuel des messages"
+      ]
+    },
+    {
+      "version": "2.9.5B",
+      "date": "2026-03-22",
+      "title": "✨ UX & Chat améliorés",
+      "changes": [
+        "📅 Séparateurs de date entre les messages (Aujourd'hui, Hier, date complète)",
+        "⬇️ Bouton flottant 'Scroll to bottom' avec compteur de messages non-lus",
+        "🔴 Barre 'Nouveaux messages' quand vous scrollez vers le haut (style Discord)",
+        "📦 Regroupement des messages consécutifs (même utilisateur = header masqué)",
+        "😊 Emoji shortcodes : tapez :fire: :heart: :rocket: :skull: etc.",
+        "💻 Blocs de code : entourez de ` pour inline ou ``` pour multi-ligne",
+        "📊 Page de statistiques serveur en temps réel (bouton dans le header)",
+        "🎨 UI améliorée : ombres, avatars plus grands, scrollbar personnalisée",
+        "💬 Highlight des mentions (barre orange à gauche)",
+        "🎮 Animations améliorées dans les jeux (drop, pop, win pulse)",
+        "📊 API /api/stats publique pour les statistiques du serveur"
+      ]
+    },
+    {
+      "version": "2.9.4B",
+      "date": "2026-01-19",
+      "title": "🎬 Médias intégrés & UI",
+      "changes": [
+        "🎧 Lecteurs audio/vidéo intégrés pour les pièces jointes (y compris DMs)",
+        "📺 Lecteur YouTube intégré dans les aperçus de liens",
+        "🔗 Aperçu direct des liens audio/vidéo (player intégré)",
+        "👥 Sélection des joueurs multijoueur corrigée (liste des connectés)",
+        "📏 Largeur des lecteurs et bulles média étendue"
+      ]
+    },
+    {
+      "version": "2.9.3B",
+      "date": "2026-01-19",
+      "title": "🧭 DocSpace & Expérience améliorée 🗄️ DocSpace Beta & Stockage",
+      "changes": [
+        "🗄️ Icône stockage pour le serveur",
+        "✨ Micro‑animations visuelles (header + prévisualisation)",
+        "📁 Stockage amélioré (tout type + 100MB)",
+        "💬 DMs plus fluides avec indicateur de frappe",
+        "📎 Pièces jointes dans les DMs",
+        "📌 Épingles admin synchronisées",
+        "🔐 Accès sécurisé mémorisé localement",
+        "📁 Stockage de tous types de fichiers (jusqu'à 100MB)",
+        "💬 DMs améliorés (scroll fluide, indicateur de frappe, pièces jointes)",
+        "📌 Épinglage admin synchronisé pour tout le serveur",
+        "🔐 Code d'accès à l'entrée (59123) avec mémorisation locale",
+        "✨ Aperçu de capture/paste plus transparent avec animation"
+      ]
+    },
+    {
+      "version": "2.9.2",
+      "date": "2026-01-14",
+      "title": "� Panel Admin Renforcé & Apps Natives",
+      "changes": [
+      "🔐 Panel Admin considérablement amélioré",
+        "📢 Système d'annonces épinglées pour tous",
+        "🎨 Personnalisation du nom du serveur",
+        "👋 Message de bienvenue personnalisable",
+        "🎮 Contrôle des mini-jeux (activer/désactiver)",
+        "📋 Système de logs serveur complet",
+        "💾 Export des logs en JSON",
+        "🔊 Fonction Unmute tous",
+        "🔄 Réinitialisation complète du serveur",
+        "🏷️ Badge version V2.9.2 en bas à gauche",
+        "💻 Application Windows (.exe) disponible",
+        "📱 Application Android (.apk) disponible"
+      ]
+    },
+    {
+      "version": "2.9.1",
+      "date": "2026-01-14",
+      "title": "🎮 Mini-Jeux Multijoueur",
+      "changes": [
+        "🎮 Système de mini-jeux complet (Morpion, Puissance 4, Pierre-Papier-Ciseaux, Quiz, Memory, Devine le Nombre)",
+        "👥 Mode multijoueur en temps réel avec système d'invitation",
+        "🤖 Mode vs Bot intelligent pour jouer seul",
+        "📨 Notifications d'invitation de jeu",
+        "🔧 Correction du bug des GIFs qui se superposaient",
+        "🗑️ Suppression du curseur personnalisé buggy",
+        "💬 Amélioration de l'IA locale (100+ réponses)"
+      ]
+    },
+    {
+      "version": "2.9.0",
+      "date": "2026-01-13",
+      "title": "✨ Grande mise à jour sociale",
+      "changes": [
+        "📊 Système de sondages interactifs",
+        "👤 Profils utilisateurs personnalisables",
+        "💌 Messages privés (DM) avec persistance",
+        "🎭 Statuts personnalisés (En ligne, Absent, Ne pas déranger)",
+        "🖼️ GIFs intégrés avec recherche Giphy",
+        "🤖 Assistant IA GeminiBot intégré",
+        "📌 Messages épinglés",
+        "🖼️ Galerie multimédia (images, fichiers, liens)"
+      ]
+    },
+    {
+      "version": "2.8.0",
+      "date": "2026-01-10",
+      "title": "🎨 Refonte visuelle",
+      "changes": [
+        "🎨 Nouveau design moderne style Discord",
+        "🌙 Mode sombre amélioré",
+        "💫 Animations fluides",
+        "📱 Interface responsive pour mobile",
+        "🔔 Système de notifications amélioré",
+        "⚡ Optimisation des performances"
+      ]
+    },
+    {
+      "version": "2.7.0",
+      "date": "2026-01-05",
+      "title": "💬 Salons de discussion",
+      "changes": [
+        "📁 Système de salons (Général, Jeux, Musique, Tech, Random)",
+        "🔒 Salons privés avec code d'accès",
+        "📜 Historique par salon",
+        "👥 Liste des utilisateurs en temps réel",
+        "🔄 Reconnexion automatique"
+      ]
+    },
+    {
+      "version": "2.6.0",
+      "date": "2026-01-01",
+      "title": "😄 Réactions & Émojis",
+      "changes": [
+        "😄 Réactions aux messages",
+        "🎨 Picker d'émojis complet",
+        "↩️ Système de réponse aux messages",
+        "✏️ Édition de messages",
+        "🗑️ Suppression de messages"
+      ]
+    },
+    {
+      "version": "2.5.0",
+      "date": "2025-12-28",
+      "title": "📎 Partage de fichiers",
+      "changes": [
+        "📎 Upload de fichiers et images",
+        "🖼️ Prévisualisation des images",
+        "📁 Support de nombreux formats",
+        "🔗 Partage de liens avec aperçu",
+        "💾 Téléchargement de fichiers"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2025-12-20",
+      "title": "🚀 Lancement ChatRoom V2",
+      "changes": [
+        "🌐 Architecture client-serveur avec Socket.IO",
+        "💬 Chat en temps réel",
+        "👤 Système d'utilisateurs",
+        "🎨 Interface utilisateur moderne",
+        "📱 Compatible mobile et desktop"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2025-12-01",
+      "title": "🎉 Première version",
+      "changes": [
+        "💬 Chat basique",
+        "👤 Pseudonymes",
+        "🎨 Interface simple"
+      ]
+    }
+  ]
+}
